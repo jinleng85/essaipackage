@@ -2,6 +2,7 @@
 # essaipackage
 
 <!-- badges: start -->
+[![Travis build status](https://travis-ci.com/jinleng85/essaipackage.svg?branch=main)](https://travis-ci.com/jinleng85/essaipackage)
 <!-- badges: end -->
 
 The goal of essaipackage is to ...
