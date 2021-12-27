@@ -1,0 +1,31 @@
+---
+title: "Fars_details"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Fars_details}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(essaipackage)
+```
+
+# General information
+
+While data of **car accidents** is available at the specific location of the state, it is often useful to have estimates of daily accident aggregated. For U.S.-based studies, it can be particularly useful to be able to pull time series of accidents by state.
+
+## Required set-up for this package
+
+Currently, this package exists in a development version on GitHub. To use the package, you need to install it directly from GitHub using the `install_github` function from `devtools`. 
+
+As a note, many of the dependencies have their own dependencies (e.g., `dplyr`, `tidyr`, `maps`, `readr`). 
+
+
