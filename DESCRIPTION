@@ -13,7 +13,8 @@ Imports:
     dplyr,
     tidyr,
     maps,
-    readr
+    readr,
+    testthat
 Suggests: 
     rmarkdown,
     knitr
